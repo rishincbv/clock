@@ -1,0 +1,29 @@
+body {
+    background: #000000;
+  }
+  
+  svg {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  .filler {
+    background: #fff700;
+    position: absolute;
+    bottom: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  #center{
+    height: 100%;
+    width: 100%;
+  }
+  #shadow{
+    height: 80px;
+    width: 80px;
+  }
